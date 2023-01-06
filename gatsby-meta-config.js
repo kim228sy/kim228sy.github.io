@@ -1,26 +1,26 @@
 module.exports = {
-  title: `zoomkoding.com`,
-  description: `줌코딩의 개발일기`,
+  title: `Kimsy's Record✨`,
+  description: `별의 기록✨`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
+  siteUrl: `https://kim228sy.github.io/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
-      repo: ``, // `zoomkoding/zoomkoding-gatsby-blog`,
+      repo: `kim228sy/kim228sy.github.io`, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
   ga: '0', // Google Analytics Tracking ID
   author: {
-    name: `정진혁`,
+    name: `Kimsy`,
     bio: {
       role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
-      thumbnail: 'sample.png', // Path to the image in the 'asset' folder
+      description: ['어제보다 나은', '사람에 가치를 두는', '이롭게 만들고 싶은'],
+      thumbnail: 'seedling.gif', // Path to the image in the 'asset' folder
     },
     social: {
-      github: ``, // `https://github.com/zoomKoding`,
+      github: `https://github.com/kim228sy`, // `https://github.com/zoomKoding`,
       linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: ``, // `zoomkoding@gmail.com`,
+      email: `kim228sy@gmail.com`, // `zoomkoding@gmail.com`,
     },
   },
 
@@ -43,12 +43,38 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2021.02 ~',
-        activity: '개인 블로그 개발 및 운영',
+        date: '2022.07 ~',
+        activity: '개발 공부 시작',
+      },
+      {
+        date: '2022.09 ~ 2022.10',
+        activity: 'CAMO(커뮤니티 웹) 작업',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          post: '/project-CaMo',
+        },
+      },
+      {
+        date: '2022.12 ~',
+        activity: 'Github 블로그 운영',
+        links: {
+          post: '/blog-starter-zoomkoding',
+          github: 'https://github.com/kim228sy/kim228sy.github.io',
+          demo: 'https://kim228sy.github.io/',
+        },
+      },
+      {
+        date: '2022.12',
+        activity: 'HI We(후원 및 커뮤니티 웹) 작업',
+        links: {
+          post: '/project-HiWe',
+        },
+      },
+      {
+        date: '2022.12',
+        activity: '웹 포트폴리오 작업',
+        links: {
+          post: '/project-NextjsPortfolio',
+          demo: 'https://nextjs-portfolio-self-sy.vercel.app/',
         },
       },
     ],
@@ -72,15 +98,27 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        title: '개발 블로그 테마 개발',
+        title: 'CAMO(Cafe Moment)',
         description:
-          '개발 블로그를 운영하는 기간이 조금씩 늘어나고 점점 많은 생각과 경험이 블로그에 쌓아가면서 제 이야기를 담고 있는 블로그를 직접 만들어보고 싶게 되었습니다. 그동안 여러 개발 블로그를 보면서 좋았던 부분과 불편했던 부분들을 바탕으로 레퍼런스를 참고하여 직접 블로그 테마를 만들게 되었습니다.',
-        techStack: ['gatsby', 'react'],
-        thumbnailUrl: 'blog.png',
+          '카모(CAMO, Cafe Moment)는 카페에서의 특별한 순간을 공유하기 위한 커뮤니티를 생각하고 만들었습니다.',
+        techStack: ['React', 'Next.js', 'Typescript', 'Emotion'],
+        thumbnailUrl: 'camo-logo.webp',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          post: '/project-CaMo',
+          // github: '',
+          // demo: '',
+        },
+      },
+      {
+        title: 'HI We',
+        description:
+          '하이 위(HI We)는 후원이 필요한 동물 및 단체와 후원자를 연결하는 웹 사이트입니다. 후원 페이지에서 후원받을 친구에 대한 정보를 작성하면, 포인트를 충전 및 결제하는 시스템으로 후원할 수 있습니다. 또한, 익명으로 교류하는 커뮤니티 페이지도 존재합니다. 댓글의 형식으로 후원페이지에서는 질문을, 커뮤니티페이지에서는 댓글로 소통할 수 있습니다.',
+        techStack: ['React', 'Next.js', 'Typescript', 'Emotion'],
+        thumbnailUrl: 'hi-we-main.webp',
+        links: {
+          post: '/project-HiWe',
+          // github: '',
+          // demo: '',
         },
       },
     ],
