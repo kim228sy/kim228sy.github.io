@@ -26,7 +26,6 @@ Next.js를 공부하고자 알아보다가 포트폴리오 사이트를 만들�
 CSR가 아닌, 검색엔진 최적화인 SSR을 지원하는 Next.js를 이용해서 만든다.
 
 1.  [Next.js docs](https://nextjs.org/docs/getting-started)의 명령어를 터미널에 입력해 설치한다. (Typescript를 사용하려면 `--typescript`를 뒤에 추가하면 된다.)
-
 2.  `npm run dev`명령어로 로컬에서 화면이 어떻게 그려지는지 확인한다.
 3.  pages 폴더 > index 파일 내 `Head` 부분은 메타데이터 부분으로 브라우저상에 보이는 부분은 아니다.
 4.  [tailwindcss docs](https://tailwindcss.com/docs/installation)의 명령어를 이용해 설치한다. 보다 쉽게 CSS를 적용하는 도구이다.
@@ -39,16 +38,13 @@ CSR가 아닌, 검색엔진 최적화인 SSR을 지원하는 Next.js를 이용�
 10. [Notion](https://www.notion.so/)의 데이터베이스를 포트폴리오 데이터를 넣는 용도로 만든다.
 11. [Notion API](https://www.notion.so/my-integrations/)를 만들어서 위에서 만든 데이터베이스와 연결을 한다.
 
-    > 데이터베이스 오른쪽 상단의 … 클릭
-    >
-    > 맨 아래 connections 클릭
-    >
+    > 데이터베이스 오른쪽 상단의 … 클릭  
+    > 맨 아래 connections 클릭  
     > add connections에서 my-integrations에 본인 이름 찾은 후 추가 연결
 
 12. 루트 위치에서 `.env` 파일을 만들고 그 안에 `NOTION_TOKEN=""`, `NOTION_DATABASE_ID=""`를 입력한다.
 
-    > Notion DateBase ID는 만든 데이터베이스의 open as pull page(전체 페이지로 열기) 하면 _notion.so_ 이후, _?_ 전까지가 ID이다.
-    >
+    > Notion DateBase ID는 만든 데이터베이스의 open as pull page(전체 페이지로 열기) 하면 _notion.so_ 이후, _?_ 전까지가 ID이다.  
     > Notion Token은 API 만들면서 발급받은 걸 사용한다.
 
 13. [Retrieve a database](https://developers.notion.com/reference/retrieve-a-database)에서 SDK도 지원하나, fetch만 이용한다. API 호출만 이용하여 만들 예정. notion에서만 데이터를 만질 수 있게 된다.
@@ -72,7 +68,7 @@ CSR가 아닌, 검색엔진 최적화인 SSR을 지원하는 Next.js를 이용�
 그리고 진행하다가 막힌 부분이 몇 번 있었다.
 
 1. Next.js의 버전이 다름.
-   - ` ` 사용 불가, ``로 변경.
+   - `<Link> <a></a> </Link>` 사용 불가, `<Link></Link>`로 변경.
    - `import Image from "next/image"` 가 아닌 `import Image from "next/legacy/image"`로 바꾸면서 이미지에 대한 _%_ 단위의 스타일을 지정할 수 있다.
 2. 데이터베이스의 활용으로 다른 페이지를 추가.
    - [Filter](https://developers.notion.com/reference/post-database-query-filter) 기능을 Docs에서 찾아 적용해, 프로젝트와 스터디로 분류하여 페이지를 만들었다.
@@ -86,9 +82,8 @@ CSR가 아닌, 검색엔진 최적화인 SSR을 지원하는 Next.js를 이용�
 
 - 노선을 이용한 데이터베이스이니 그 안의 내용도 페이지 내에서 볼 수 있게 하는 것을 구현할까 생각 중이다.
 
-> [참고 영상](https://ppak-coders.teachable.com/p/next-js-portfolio)
->
-> [완성 예시 소스 코드](https://github.com/TuenTuenna/next-portfolio-tutorial)
+  > [참고 영상](https://ppak-coders.teachable.com/p/next-js-portfolio)  
+  > [완성 예시 소스 코드](https://github.com/TuenTuenna/next-portfolio-tutorial)
 
 ```toc
 

@@ -49,17 +49,21 @@ or
 > 이 방법은 **github Actions**를 이용해야 해서 생각보다 오래 걸렸다.
 
 1. 세팅에서 토큰을 생성한다.
+
    ![my-readme-02-metrics-01.png](my-readme-02-metrics-01.png)
-   🔑 _public_access (default scope)_, _read:org_, _read:user_, _read:packages_, _repo_ 를 선택해서 생성한다.  
+   `🔑 public access(default scope)`, `read:org`, `read:user`, `read:packages`, `repo` 를 선택해서 생성한다.  
    여기서 주의할 점은 주어지는 토큰은 단 한 번 보여지기 때문에 따로 복사해서 보관해야 한다.
 
 2. readme repo 의 Settings 탭 > Secrets > Actions 에서 **New repository secret** 을 클릭한다.
+
    ![my-readme-02-metrics-02.png](my-readme-02-metrics-02.png)
 
 3. 사진과 같이 Name과 Secret을 작성한다. (Secret에는 아까 생성한 토큰을 입력한다.)
+
    ![my-readme-02-metrics-03.png](my-readme-02-metrics-03.png)
 
 4. readme repo 의 Actions 탭 > **set up a workflow yourself** 클릭
+
    ![my-readme-02-metrics-04.png](my-readme-02-metrics-04.png)
 
 5. `metrics.yml` 이란 이름으로 코드를 작성한다.

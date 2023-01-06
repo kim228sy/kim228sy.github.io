@@ -14,6 +14,7 @@ github꾸미기 시리즈 마지막 포스트다. 최종 나의 github 모습!
 ![my-github-00.gif](my-github-00.gif)
 
 > 오늘 소개하려는 꾸미기는 _Pinned_ 과 **gist** 를 이용한 꾸미기다.
+>
 > ![pinned-00.png](pinned-00.png)
 
 ### [productive-box](https://github.com/maxam2017/productive-box) : 커밋 통계를 통한 나의 타입은?
@@ -37,6 +38,7 @@ github꾸미기 시리즈 마지막 포스트다. 최종 나의 github 모습!
 3. **Create public gist** 클릭
 
    내용은 적당히 입력! 적용 후 자동으로 변경되니 상관없다.
+
    ![pinned-gists-02-02.png](pinned-gists-02-02.png)
 
 4. gist.github.com/[유저네임]/**[이 부분 복사]**
@@ -78,6 +80,7 @@ github꾸미기 시리즈 마지막 포스트다. 최종 나의 github 모습!
 #### 5. Github Actions 이용하기
 
 1. **understand my workflows, go ahead and enable them** 클릭
+
    ![pinned-gists-05-00.png](pinned-gists-05-00.png)
 
 2. Update gist > Enable workflow 클릭
@@ -110,9 +113,7 @@ github꾸미기 시리즈 마지막 포스트다. 최종 나의 github 모습!
 
 이렇게 Github 꾸미기 시리즈 포스트는 끝이다😎
 
-내가 원한 것은 웹상에서 한 페이지에 README 와 Pinned를 통한 나를 보여 주기였다. 내가 보통 **어떤 시간대에 커밋**을 하는 어떤 타입의 사람인지, **어떤 언어를 커밋**하는지 보여주는 것을 등록했다. 앞으로 더 꾸미기 좋은 오픈소스가 있다면 더 꾸미기도 좋다👍
-
-<br/>
+내가 원한 것은 웹상에서 한 페이지에 README 와 Pinned를 통한 나를 보여 주기였다. 내가 보통 **어떤 시간대에 커밋**을 하는 어떤 타입의 사람인지, **어떤 언어를 커밋**하는지 보여주는 것을 등록했다. 앞으로 더 좋은 오픈소스가 있다면 더 꾸며도 좋다👍
 
 ```toc
 

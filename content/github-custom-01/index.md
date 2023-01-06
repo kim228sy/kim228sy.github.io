@@ -49,7 +49,7 @@ Github의 이스터 에그 같은 README! 깃허브 유저 아이디와 동일�
 
 
 // markdown
-![배지 이름](https://img.shields.io/badge/배지 이름-#제외한Hexcode?&style=배지 모양&logo=로고&logoColor=로고 색상)
+![배지 이름](https://img.shields.io/badge/배지 이름-#제외한 Hexcode?&style=배지 모양&logo=로고&logoColor=로고 색상)
 ```
 
 테크 블로그나 링크를 연결하고 싶을 경우,
@@ -81,7 +81,9 @@ github를 통합적으로 분석 후 표시를 해준다. 다양하게 테마를
 다양한 꾸미기 팁들이 존재하니 검색을 통해서 점차 더 추가해도 좋을 듯하다!
 
 최종 나의 완성한 리드미!
+
 ![my-readme.png](my-readme.png)
+
 이렇게 완성하면서 알게 된 지식을 포스팅할 예정이다 😎
 
 ```toc

@@ -128,9 +128,9 @@ npm start
 >
 > > - 현재 테마를 이용한다면,
 > >
-> > ````bash
-> > git remote add upstream https://github.com/zoomkoding/zoomkoding-gatsby-blog.git```
-> > ````
+> > ```bash
+> > git remote add upstream https://github.com/zoomkoding/zoomkoding-gatsby-blog.git
+> > ```
 >
 > 그 후 명령어를 통해 변동사항을 가져온다.
 >
