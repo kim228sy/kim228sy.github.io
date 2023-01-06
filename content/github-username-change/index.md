@@ -7,9 +7,9 @@ tags: github username change
 categories: git/github
 ---
 
-## 🤔 내 Github 이름이 영 마음에 안드는데?
+## 🤔 내 Github 이름이 영 마음에 안 드는데?
 
-급하게 github에 연동해서 하다보니 잘 쓰지 않는 gmail을 연결했다. 조금 여유가 생겼으니 _고쳐볼까_ 한다.
+급하게 github에 연동해서 하다 보니 잘 쓰지 않는 Gmail을 연결했다. 조금 여유가 생겼으니 _고쳐볼까_ 한다.
 
 > 내가 변경하고자 하는 것
 >
@@ -41,7 +41,7 @@ categories: git/github
 ![5-settings-change-email.jpg](5-settings-change-email.jpg)
 
 > 이러면 github 상에서 username과 email을 변경하게 된다.
-> 그런데 우리는 git 도 사용중이다. git의 username과 email을 변경하자!
+> 그런데 우리는 git 도 사용 중이다. git의 username과 email을 변경하자!
 
 ### Git 사용자 이름 / 이메일 변경
 
@@ -73,7 +73,7 @@ git config --global user.name [변경할 계정 이름]
 git config --global user.email [변경할 계정 이메일]
 ```
 
-## 🫢 끝난게 아니다! 로컬에서 github 주소 변경
+## 🫢 끝난 게 아니다! 로컬에서 github 주소 변경
 
 github에서 username을 변경해서 리포지토리 주소들이 죄다 바뀌어있다. 로컬에서 자동으로 변경되지 않으니 우리가 직접 바꿔야 한다.
 
@@ -94,8 +94,6 @@ git remote set-url origin [연결할 주소]
 ## ✨
 
 정상적으로 username과 email을 변경했다🤭
-
-<br/>
 
 ```toc
 

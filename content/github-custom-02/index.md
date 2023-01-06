@@ -9,10 +9,10 @@ categories: git/github
 
 ## 내 리드미 꾸미기 과정!
 
-내 리드미의 완성된 모습! 전부 기록으로 남기려한다😉
+내 리드미의 완성된 모습! 전부 기록으로 남기려 한다😉
 ![my-readme-00.gif](my-readme-00.gif)
 
-> 마크다운으로 작성이 가능하지만 HTML요소를 추가하다보니 잘 인식이 안되기도 하고 이미지의 크기 조절이 어려워서 전부 HTML로 작성하게 되었다. _혹시 모르니 마크다운 버전도 같이 기록해야겠다!_
+> 마크다운으로 작성이 가능하지만 HTML 요소를 추가하다 보니 잘 인식이 안 되기도 하고 이미지의 크기 조절이 어려워서 전부 HTML로 작성하게 되었다. _혹시 모르니 마크다운 버전도 같이 기록해야겠다!_
 >
 > ```bash
 > <div align="center">
@@ -50,9 +50,8 @@ or
 
 1. 세팅에서 토큰을 생성한다.
    ![my-readme-02-metrics-01.png](my-readme-02-metrics-01.png)
-   🔑 _public_access (default scope)_, _read:org_, _read:user_, _read:packages_, _repo_ 를 선택해서 생성한다.
-
-   여기서 주의 할 점은 주어지는 토큰은 단 한번 보여지기 때문에 따로 복사해서 보관해야 한다.
+   🔑 _public_access (default scope)_, _read:org_, _read:user_, _read:packages_, _repo_ 를 선택해서 생성한다.  
+   여기서 주의할 점은 주어지는 토큰은 단 한 번 보여지기 때문에 따로 복사해서 보관해야 한다.
 
 2. readme repo 의 Settings 탭 > Secrets > Actions 에서 **New repository secret** 을 클릭한다.
    ![my-readme-02-metrics-02.png](my-readme-02-metrics-02.png)
@@ -105,7 +104,7 @@ or
 
 ![my-readme-03-Typing.gif](my-readme-03-Typing.gif)
 
-> 움직이는 텍스트로 역동적임을 보여주는 한 편, 지루하지 않게 해주는 거 같다.
+> 움직이는 텍스트로 역동적임을 보여주는 한편, 지루하지 않게 해주는 거 같다.
 
 ```bash
 <img src="https://readme-typing-svg.demolab.com?font=Gowun+Dodum&pause=1000&center=true&vCenter=true&width=300&lines=Welcome%F0%9F%98%8E;Kimsy's+Github%E2%9C%A8" alt="Typing SVG" />
@@ -121,7 +120,7 @@ or
 
 ![my-readme-04-badge.png](my-readme-04-badge.png)
 
-> 배지는 두가지가 있다. 링크를 연결하는 것과 그저 보여주는 것이다.
+> 배지는 두 가지가 있다. 링크를 연결하는 것과 그저 보여주는 것이다.
 
 1. 링크 연결
 

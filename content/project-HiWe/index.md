@@ -13,8 +13,6 @@ categories: project
 
 > 프로젝트 기간: 2022.12.1 - 2022.12.30 (약 1개월)
 
-<br />
-
 '**HI We(하이 위)**'는 후원이 필요한 동물 및 단체와 후원자를 연결해서 후원이 진행되도록 하면서 교류도 할 수 있는 사이트입니다.  
 후원이 필요한 단체와 동물들이 우리가 모르는 곳에도 존재합니다. 그들은 인스타그램, 유튜브, 트위터 등 많은 SNS상에서 존재하는 걸 알 수 있습니다.  
 그들에게는 후원받을 수 있도록 하고, 후원자는 정보를 더 쉽게 확인할 수 있는 공간을 제공합니다.  
@@ -118,9 +116,7 @@ categories: project
 ![my-page-point.gif](12-hi-we-mypage-point.gif)
 ![my-page-point-mobile.png](12-hi-we-mypage-point-mobile.png)
 
-> API는 제공받아 작업했다.
-
-<br/>
+> API는 받아 작업했다.
 
 ```toc
 

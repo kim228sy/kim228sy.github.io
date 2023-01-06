@@ -63,15 +63,15 @@ github꾸미기 시리즈 마지막 포스트다. 최종 나의 github 모습!
 
 #### 4. Gist 및 Token 등록하기
 
-1. fork한 _productive-box 리포지토리_ 의 Settings > Actions > New repository secret 선택
+1. fork 한 _productive-box 리포지토리_ 의 Settings > Actions > New repository secret 선택
 
    ![pinned-gists-04-00.png](pinned-gists-04-00.png)
 
-2. Name - `GIST_ID`, Secret - `아까 복사 해 둔 gist 주소 뒷 부분` 입력 > **Add secret** 클릭
+2. Name - `GIST_ID`, Secret - `아까 복사 해 둔 gist 주소 뒷부분` 입력 > **Add secret** 클릭
 
    ![pinned-gists-04-01.png](pinned-gists-04-01.png)
 
-3. Name - `GH_TOKEN`, Secret - `아까 복사 했던 토큰` 입력 > **Add secret** 클릭
+3. Name - `GH_TOKEN`, Secret - `아까 복사했던 토큰` 입력 > **Add secret** 클릭
 
    ![pinned-gists-04-02.png](pinned-gists-04-02.png)
 
@@ -84,7 +84,7 @@ github꾸미기 시리즈 마지막 포스트다. 최종 나의 github 모습!
 
    ![pinned-gists-05-01.png](pinned-gists-05-01.png)
 
-3. 조금 지나면 알아서 생성이 되는데, 수정해야 하는 부분이 있다.
+3. 조금 지나면 알아서 생성되는데, 수정해야 하는 부분이 있다.
 
    ```bash
    GIST_ID: 9842e074b8ee46aef76fd0d493bae0ed
@@ -110,7 +110,7 @@ github꾸미기 시리즈 마지막 포스트다. 최종 나의 github 모습!
 
 이렇게 Github 꾸미기 시리즈 포스트는 끝이다😎
 
-내가 원한 것은 웹 상에서 한 페이지에 README와 Pinned를 통한 나를 보여주기 였다. 내가 보통 **어떤 시간대에 커밋**을 하는 어떤 타입의 사람인지, **어떤 언어를 커밋**하는지 보여주는 것을 등록했다. 앞으로 더 꾸미기 좋은 오픈소스가 있다면 더 꾸미기도 좋다👍
+내가 원한 것은 웹상에서 한 페이지에 README 와 Pinned를 통한 나를 보여 주기였다. 내가 보통 **어떤 시간대에 커밋**을 하는 어떤 타입의 사람인지, **어떤 언어를 커밋**하는지 보여주는 것을 등록했다. 앞으로 더 꾸미기 좋은 오픈소스가 있다면 더 꾸미기도 좋다👍
 
 <br/>
 
