@@ -101,7 +101,7 @@ module.exports = {
         title: 'CAMO(Cafe Moment)',
         description:
           '카모(CAMO, Cafe Moment)는 카페에서의 특별한 순간을 공유하기 위한 커뮤니티를 생각하고 만들었습니다.',
-        techStack: ['React', 'Next.js', 'Typescript', 'Emotion'],
+        techStack: ['React', 'Next.js', 'Typescript', 'Emotion', 'GraphQL'],
         thumbnailUrl: 'camo-logo.webp',
         links: {
           post: '/project-CaMo',
@@ -113,7 +113,7 @@ module.exports = {
         title: 'HI We',
         description:
           '하이 위(HI We)는 후원이 필요한 동물 및 단체와 후원자를 연결하는 웹 사이트입니다. 후원 페이지에서 후원받을 친구에 대한 정보를 작성하면, 포인트를 충전 및 결제하는 시스템으로 후원할 수 있습니다. 또한, 익명으로 교류하는 커뮤니티 페이지도 존재합니다. 댓글의 형식으로 후원페이지에서는 질문을, 커뮤니티페이지에서는 댓글로 소통할 수 있습니다.',
-        techStack: ['React', 'Next.js', 'Typescript', 'Emotion'],
+        techStack: ['React', 'Next.js', 'Typescript', 'Emotion', 'Recoil', 'GraphQL'],
         thumbnailUrl: 'hi-we-main.webp',
         links: {
           post: '/project-HiWe',
