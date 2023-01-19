@@ -24,6 +24,8 @@ categories: project
 - Next.js
 - Typescript
 - Emotion
+- Recoil
+- GraphQL
 
 ## 시연
 
@@ -44,7 +46,8 @@ categories: project
 
 ### 로그인 / 회원가입 페이지
 
-- 이메일 형식 또는 비밀번호 형식에 맞지 않으면 에러 메시지를 보여준다.
+- 정규표현식을 활용하여 이메일 검증 기능 구현   
+- localStorage에 로그인 Token정보를 저장하고 refresh Token를 서버측과 통신하여 로그인 유지 기능 구현했다.
 
 ![login.gif](03-hi-we-login.gif)
 ![signup-mobile.png](04-hi-we-signup-mobile.png)
@@ -52,6 +55,8 @@ categories: project
 ### 후원 페이지
 
 - 후원자가 피 후원 대상을 후원할 수 있는 페이지이다.
+- 전역상태관리는 Recoil을 이용하여 게시글 상태를 관리   
+- 카카오 주소 API를 통해 주소 입력 기능 구현   
 
 #### 목록 페이지
 
@@ -65,7 +70,7 @@ categories: project
 
 - 후원하기 버튼으로 후원으로 결제되고, 모아보기 버튼으로 마이페이지에서 따로 볼 수 있다.
 - 질문하기를 통하여 피 후원 대상에 대한 질문을 남길 수 있다.
-- 권한 분기를 이용해 작성 계정, 로그인 계정이 같으면 게시글을 수정 / 삭제할 수 있다.
+- 로그인 Token 정보와 게시글 작성 데이터 정보와 비교하여 일치 할 경우만 접근 가능 기능 구현
 
 ![useditem-detail.gif](06-hi-we-useditem-detail.gif)
 ![useditem-detail-mobile.png](06-hi-we-useditem-detail-mobile.png)
@@ -73,6 +78,8 @@ categories: project
 #### 등록 페이지
 
 - 피 후원 대상의 정보를 기재할 수 있다.
+- 전역상태관리는 Recoil을 이용하여 게시글 상태를 관리   
+- 카카오 주소 API를 통해 주소 입력 기능 구현   
 
 ![useditem-write.gif](07-hi-we-useditem-write.gif)
 ![useditem-write-mobile.png](07-hi-we-useditem-write-mobile.png)
