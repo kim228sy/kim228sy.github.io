@@ -82,8 +82,8 @@ CSR가 아닌, 검색엔진 최적화인 SSR을 지원하는 Next.js를 이용�
 
 - 노선을 이용한 데이터베이스이니 그 안의 내용도 페이지 내에서 볼 수 있게 하는 것을 구현할까 생각 중이다.
 
-  > [참고 영상](https://ppak-coders.teachable.com/p/next-js-portfolio)  
-  > [완성 예시 소스 코드](https://github.com/TuenTuenna/next-portfolio-tutorial)
+  <!-- > [참고 영상](https://ppak-coders.teachable.com/p/next-js-portfolio)
+  > [완성 예시 소스 코드](https://github.com/TuenTuenna/next-portfolio-tutorial) -->
 
 ```toc
 
