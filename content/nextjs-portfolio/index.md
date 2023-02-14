@@ -65,9 +65,9 @@ CSR가 아닌, 검색엔진 최적화인 SSR을 지원하는 Next.js를 이용�
 
 대부분 docs를 보면서 작업했다 보니, docs를 읽고 정보를 찾는 능력이 조금 나아진 듯하다.
 
-그리고 진행하다가 막힌 부분이 몇 번 있었다.
+진행 중 겪은 어려움!
 
-1. Next.js의 버전이 다름.
+1. Next.js 버전에 따른 `<Link>` 사용.
    - `<Link> <a></a> </Link>` 사용 불가, `<Link></Link>`로 변경.
    - `import Image from "next/image"` 가 아닌 `import Image from "next/legacy/image"`로 바꾸면서 이미지에 대한 _%_ 단위의 스타일을 지정할 수 있다.
 2. 데이터베이스의 활용으로 다른 페이지를 추가.
@@ -80,7 +80,7 @@ CSR가 아닌, 검색엔진 최적화인 SSR을 지원하는 Next.js를 이용�
 
 추가하고 싶은 기능 또한 있다.
 
-- 노선을 이용한 데이터베이스이니 그 안의 내용도 페이지 내에서 볼 수 있게 하는 것을 구현할까 생각 중이다.
+- 노션을 이용한 데이터베이스이니 그 안의 내용도 페이지 내에서 볼 수 있게 하는 것을 구현할까 생각 중이다.
 
   <!-- > [참고 영상](https://ppak-coders.teachable.com/p/next-js-portfolio)
   > [완성 예시 소스 코드](https://github.com/TuenTuenna/next-portfolio-tutorial) -->
