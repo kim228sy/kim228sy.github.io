@@ -53,7 +53,7 @@ categories: project
 
     ![03-detail.gif](03-detail.gif)
 
-> API를 백엔드 공부하는 분께 받아서 작업하게 되었다.
+> API를 백엔드 공부하는 분께 제공받아 작업하게 되었다.
 
 ```toc
 
