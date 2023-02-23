@@ -4,7 +4,7 @@ title: Next.js로 만드는 Portfolio 사이트
 date: '2022-12-28 20:00:00'
 author: Kimsy
 tags: study web notion
-categories: study
+categories: project study
 ---
 
 ## 😏 포트폴리오 사이트를 만들어 보자!
